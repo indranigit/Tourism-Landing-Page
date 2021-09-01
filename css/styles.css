@@ -1,0 +1,97 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato" ,sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+#heading
+{
+    font-size: 70px;
+    font-family: cursive;
+    color:white;
+    background-color: black;
+    text-align: center;
+
+}
+.img1{
+    background-image: url('https://images.pexels.com/photos/2440009/pexels-photo-2440009.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    min-height:100%;
+}
+.img2
+{
+    background-image: url("https://images.pexels.com/photos/4353638/pexels-photo-4353638.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.img3{
+    background-image:url("https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    min-height: 500px;
+}
+.img4
+{
+    background-image: url("https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.img5{
+    background-image: url("https://images.pexels.com/photos/4353813/pexels-photo-4353813.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    min-height:500px;
+}
+.img6{
+    background-image: url("https://images.pexels.com/photos/2507007/pexels-photo-2507007.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    min-height:300px;
+   background-repeat: no-repeat;
+}
+.img1 , .img2, .img3, .img4, .img5, .img6{
+    position:relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color: #f4f4f4 ;
+    color:#666;
+}
+.section-dark{
+    background-color:#282e34;
+    color:#ddd;
+}
+.text
+{
+    position: absolute;
+    top:50%;
+    width:100% ;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+.text .border
+{
+    background-color: rgb(3, 3, 3);
+    color:#fff;
+    padding:20px;
+}
+.text .border .trans
+{
+    background-color: transparent;
+}
+@media(max-width:568px){
+    .img1 .img2 .img3 {
+        background-attachment: scroll;
+    }
+}
+#foot{
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    padding:10px 20px 10px 10px;
+}
